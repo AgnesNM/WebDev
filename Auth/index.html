@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication system</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"> 
+    <a href="todo.html">todo</a>
+</head>
+<body>
+
+    <div class ="user-data">
+        <form action="index.html" method="get">            
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>              
+              <label for="pass">Password (8 characters minimum):</label>
+              <input type="password" id="pass" name="password"
+               minlength="8" required>
+            <input id="submit" type="button" value="Submit" onclick="displayFunction()">       
+        </form>
+    </div>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
