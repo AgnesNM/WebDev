@@ -35,8 +35,7 @@ div {
 }
 
 input {
-    color:white;
-    
+    color:white;    
     padding: 12px 20px;
     margin: 1%;
     box-sizing: border-box;
@@ -57,14 +56,12 @@ input:focus {
 }
 
 
-
-
-
-@media screen and (max-width:768px) {
-    #title {
+@media only screen and (min-width:30em) and (max-width:80em) {
+    #title{
         width:100%;
         background-color:white;
     }
+
 }
 
 
