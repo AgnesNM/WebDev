@@ -1,7 +1,44 @@
+body{
+    background-color: black;    
+}
+
+p {
+    color:white;
+}
+
+nav {
+    font-size: 2em;
+    color:yellow;
+}
+
+button {
+    color:white;
+}
+
+a {
+    color:yellow;
+    
+}
+
+div {
+    color: white;
+}
+
+#submit {
+    color:black;
+    margin-top: 30px;
+}
+
+#title {
+    background-color: yellow;    
+    caret-color:black;    
+}
+
 input {
-    width: 100%;
+    color:white;
+    
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 1%;
     box-sizing: border-box;
     border: 2px solid gray;
     border-radius: 4px;
@@ -13,7 +50,21 @@ input:focus {
 
 .user-data {
     width: 100%;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:50px;   
+    
+}
 
+
+
+
+
+@media screen and (max-width:768px) {
+    #title {
+        width:100%;
+        background-color:white;
+    }
 }
 
 

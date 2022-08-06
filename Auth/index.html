@@ -5,25 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Authentication system</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/css/mdb.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css"> 
-    <a href="todo.html">todo</a>
+    
 </head>
 <body>
 
-    <div class ="user-data">
-        <form action="index.html" method="get">            
-              <label for="name">Enter your name: </label>
-              <input type="text" name="name" id="name" required>
-              <label for="email">Enter your email: </label>
-              <input type="email" name="email" id="email" required>              
-              <label for="pass">Password (8 characters minimum):</label>
-              <input type="password" id="pass" name="password"
-               minlength="8" required>
-            <input id="submit" type="button" value="Submit" onclick="displayFunction()">
-                   
-        </form>
-    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="todo.html">To do</a>
+      
+    </nav>
+
+          
+    <h1 id="title">Authentication System</h1>
+
+   <div class="container-fluid">
+    
+                    <div class ="user-data">
+                <form action="index.html" method="get">            
+                      <label for="name">Enter your name: </label>
+                      <input type="text" name="name" id="name" required><br>
+                      <label for="email">Enter your email: </label>
+                      <input type="email" name="email" id="email" required><br>              
+                      <label for="pass">Enter Password:</label>
+                      <input type="password" id="pass" name="password" placeholder="minimum 8 characters"
+                       minlength="8" required> <br>
+                    <input id="submit" type="button" value="Submit" onclick="displayFunction()">
+                           
+                </form>
+            </div>
+        
+
+
+    
+   </div>
     
     <script src="js/scripts.js"></script>
+    <nav>
+        <a href="#">Home</a>
+        <a href="todo.html">To do</a>
+    </nav>
 </body>
 </html>
